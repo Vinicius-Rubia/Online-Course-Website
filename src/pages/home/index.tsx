@@ -1,5 +1,6 @@
 import { Benefits } from "@/components/benefits";
 import { Courses } from "@/components/courses";
+import { Faq } from "@/components/faq";
 import { Pricing } from "@/components/pricing";
 import { Testimonials } from "@/components/testimonials";
 import { Button } from "@/components/ui/button";
@@ -79,6 +80,7 @@ export const Home: React.FC = () => {
       <Courses />
       <Testimonials />
       <Pricing />
+      <Faq />
     </main>
   );
 };

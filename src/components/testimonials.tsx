@@ -25,8 +25,8 @@ export const Testimonials: React.FC = () => {
 
       <div className="flex flex-wrap gap-5 mt-10 mb-[50px] 2xl:mt-[60px] 2xl:mb-[100px] full:mt-20">
         {TESTIMONIALS.map((testimonial, index) => (
-          <div className="min-w-[288px] 2xl:min-w-[630px] flex flex-1">
-            <Testimonial key={index} testimonial={testimonial} />
+          <div key={index} className="min-w-[288px] 2xl:min-w-[630px] flex flex-1">
+            <Testimonial testimonial={testimonial} />
           </div>
         ))}
       </div>
